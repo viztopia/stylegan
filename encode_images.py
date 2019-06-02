@@ -10,7 +10,9 @@ import config
 from encoder.generator_model import Generator
 from encoder.perceptual_model import PerceptualModel
 
-URL_FFHQ = 'https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ'  # karras2019stylegan-ffhq-1024x1024.pkl
+#URL_FFHQ = 'https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ'  # karras2019stylegan-ffhq-1024x1024.pkl
+URL_FFHQ = 'https://drive.google.com/uc?id=1WB6YPZ2XDYqZM_SVZ7o196_dvuNgMtaX'  # cat.pkl
+
 
 
 def split_to_batches(l, n):
